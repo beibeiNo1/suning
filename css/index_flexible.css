@@ -1,0 +1,106 @@
+@media screen and (min-width: 750px) {
+    html {
+        font-size: 75px!important;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    min-width: 4.266667rem;
+    width: 10rem;
+    margin: 0 auto;
+    font-family: Arial, Helvetica;
+}
+
+.search_content {
+    position: fixed;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 320px;
+    max-width: 750px;
+    width: 100%;
+    display: flex;
+    height: 1.173333rem;
+    line-height: 1.173333rem;
+    background-color: #FFC001;
+    font-size: .346667rem;
+}
+
+.classify::before {
+    content: "";
+    display: block;
+    width: .586667rem;
+    height: .933333rem;
+    background: url(../images/classify.png) no-repeat;
+    background-size: .586667rem .933333rem;
+    margin: .146667rem .226667rem 0rem .28rem;
+}
+
+.search {
+    flex: 1;
+    background-color: #FFF2CC;
+    height: .88rem;
+    line-height: .88rem;
+    border-radius: .44rem;
+    margin-top: .133333rem;
+    text-indent: .4rem;
+    color: #666;
+}
+
+.login {
+    display: block;
+    width: 1rem;
+    height: .933333rem;
+    color: #fff;
+    margin-left: .266667rem;
+}
+
+
+/* banner 模块 */
+
+.banner {
+    width: 10rem;
+    height: 4.906667rem;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+/* 广告模块  */
+
+.ad {
+    display: flex;
+}
+
+.ad a {
+    flex: 1;
+}
+
+.ad a img {
+    width: 100%;
+}
+
+
+/* 导航模块 */
+
+nav a {
+    float: left;
+    width: 2rem;
+    height: 1.866667rem;
+    font-size: .333333rem;
+    text-align: center;
+    color: #333;
+}
+
+nav a img {
+    display: block;
+    width: 1.093333rem;
+    height: 1.093333rem;
+    margin: .266667rem auto;
+}
